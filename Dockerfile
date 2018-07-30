@@ -18,9 +18,6 @@ RUN ./configure --with-incompatible-bdb --disable-tests --disable-gui-tests --di
 # Make
 RUN make
 
-# Build
-RUN build
-
 RUN chmod +x src/dogecoind src/dogecoin-cli
 RUN ln -s /usr/src/dogecoin/src/dogecoind /usr/bin/dogecoind
 RUN ln -s /usr/src/dogecoin/src/dogecoin-cli /usr/bin/dogecoin-cli
