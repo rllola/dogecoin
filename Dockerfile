@@ -1,4 +1,4 @@
-FROM arm64v8/ubuntu
+FROM arm32v7/ubuntu
 
 RUN apt-get update
 
